@@ -2,7 +2,7 @@
 <v-container pa-0>
   <v-layout>
     <v-flex>
-      <v-img :aspect-ratio="3" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+      <v-img  :aspect-ratio="3" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
         <v-layout pa-2 column fill-height class="lightbox black--text">
           <v-flex>
             <v-icon @click="$router.push('/appsetting')">mdi-settings</v-icon>

@@ -21,7 +21,10 @@ import { sync, call } from "vuex-pathify";
 export default {
   name: "Login",
   computed: {},
-  data: () => ({}),
+  data: () => ({
+    email:'',
+    password:''
+  }),
   methods: {}
 };
 </script>
