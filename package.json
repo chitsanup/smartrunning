@@ -14,7 +14,7 @@
     "cordova-build-only-www-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-build-only-www-osx",
     "cordova-build-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-build-osx",
     "cordova-prepare": "vue-cli-service cordova-prepare",
-    "cordova-serve-android": "cross-env CORDOVA_PLATFORM=android vue-cli-service cordova-serve-android",
+    "cordova-serve-android": "cross-env CORDOVA_PLATFORM=android vue-cli-service --http false cordova-serve-android",
     "cordova-serve-browser": "cross-env CORDOVA_PLATFORM=browser vue-cli-service cordova-serve-browser",
     "cordova-serve-ios": "cross-env CORDOVA_PLATFORM=ios vue-cli-service cordova-serve-ios",
     "cordova-serve-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx"
@@ -39,6 +39,7 @@
     "vue-cli-plugin-cordova": "^2.3.6",
     "vue-cli-plugin-vuetify": "^0.6.1",
     "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.2.2"
+    "vuetify-loader": "^1.2.2",
+    "webpack-dev-server": "^3.8.0"
   }
 }

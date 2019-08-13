@@ -19,6 +19,7 @@
         <v-btn  type="submit" block color="error" dark>สมัครสมาชิก222</v-btn>
     </v-flex>
     </form>
+    <pre>{{dd}}</pre>
     
 </v-layout>
 </template>
@@ -69,7 +70,9 @@ export default {
       } 
       },
         /******* Methods default run ******/
-        load: async function () {}
+        load: async function () {
+            await this.read();
+        }
     },
 }
 </script>
